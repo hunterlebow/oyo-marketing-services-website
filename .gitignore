@@ -5,11 +5,20 @@
 /.pnp
 .pnp.js
 
+#videos & images
+src/videos/**
+src/images/**
+
+
+# prettier
+.prettierrc
+
 # testing
 /coverage
 
 # production
 /build
+.vscode/
 
 # misc
 .DS_Store
@@ -21,3 +30,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
